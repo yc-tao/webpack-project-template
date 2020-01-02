@@ -46,7 +46,7 @@ function addDevMiddlewares(app, webpackConfig) {
 addDevMiddlewares(app,webpackConfig)
 
 const host = "http://127.0.0.1"
-const port = 8050
+const port = 3000
 app.listen(port,async err=>{
     if(err){
         console.error(err)
